@@ -1,0 +1,65 @@
+{
+  "appName": {
+    "message": "Scrape Me",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "RAMP",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Just a basic scraper....",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "RAMP",
+    "description": "The title of the browser action button"
+  },
+  "btnSendToRM": {
+    "message": "Send to Recruitment Manager",
+    "description": "The title of the Send to RM button"
+  },
+  "dialog__text_plain__dialog_error_title_generic": {
+    "message": "We're sorry",
+    "description": "Dialog error title"
+  },
+  "dialog__text_plain__request_error_message": {
+    "message": "Something unexpected happened and your request could not be completed. Please try again.",
+    "description": "Dialog error message"
+  },
+  "dialog__button_cancel__dialog_button_cancel": {
+    "message": "Cancel",
+    "description": "Cancel button text"
+  },
+  "dialog__button_confirm__dialog_button_try_again": {
+    "message": "Try again",
+    "description": "Try Again button text"
+  },
+  "dialog__text_plain__request_process_title_generic": {
+    "message": "Sending your request"
+  },
+  "dialog__text_plain__request_process_message_generic": {
+    "message": "Please wait just one moment"
+  },
+  "didialog__text_service__service_name_recruitmentmanager": {
+    "message": "Recruitment Manager",
+    "shortname": "RM"
+  },
+  "dialog__text_service__service_name_ramp": {
+    "message": "Recman Apps, Modules & Plugins",
+    "shortname": "RAMP",
+    "website": "www.recmanplugins.no"
+  },
+  "dialog__text_plain__dialog_success_title_generic": {
+    "message": "Successful!"
+  },
+  "dialog__text_plain__request_success_message": {
+    "message": "was successfully added to"
+  },
+  "dialog__text_plain__imported_from_message_generic": {
+    "message": "Candidate data imported from"
+  },
+  "dialog__text_plain__sidebar_section_title_tips": {
+    "message": "Tips and Tricks from"
+  }
+}

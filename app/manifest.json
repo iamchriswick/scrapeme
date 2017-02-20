@@ -1,0 +1,101 @@
+{
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appShortName__",
+  "description": "__MSG_appDescription__",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "icons": {
+    "128": "images/icon-rm-128.png"
+  },
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [{
+    "matches": [
+      "https://*.utdanning.no/*"
+    ],
+    "css": [
+      "styles/contentscript.css"
+    ],
+    "js": [
+      "scripts/contentscript.js"
+    ],
+    "run_at": "document_end",
+    "all_frames": true
+  }],
+  "minimum_chrome_version": "50.0",
+  "offline_enabled": false,
+  "optional_permissions": [
+    "contextMenus"
+  ],
+  "current_locale": "en",
+  "externally_connectable": {
+    "ids": [
+      "*"
+    ],
+    "matches": [
+      "http://localhost:9007/*"
+    ]
+  },
+  "page_action": {
+    "default_title": "__MSG_browserActionTitle__"
+  },
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "background",
+    "bookmarks",
+    "browsingData",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "debugger",
+    "declarativeContent",
+    "desktopCapture",
+    "downloads",
+    "fontSettings",
+    "gcm",
+    "geolocation",
+    "history",
+    "identity",
+    "idle",
+    "management",
+    "nativeMessaging",
+    "notifications",
+    "pageCapture",
+    "power",
+    "printerProvider",
+    "privacy",
+    "proxy",
+    "sessions",
+    "storage",
+    "system.cpu",
+    "system.display",
+    "system.memory",
+    "system.storage",
+    "tabCapture",
+    "tabs",
+    "topSites",
+    "tts",
+    "ttsEngine",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequestBlocking",
+    "http://*/",
+    "https://*/",
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    "_locales/*",
+    "bower_components/*",
+    "images/*",
+    "scripts/*",
+    "styles/*"
+  ]
+}

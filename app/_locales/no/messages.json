@@ -1,0 +1,65 @@
+{
+  "appName": {
+    "message": "Scrape Me",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "RAMP",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Just a basic scraper...",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "RAMP",
+    "description": "The title of the browser action button"
+  },
+  "btnSendToRM": {
+    "message": "Send til Recruitment Manager",
+    "description": "The title of the Send to RM button"
+  },
+  "dialog__text_plain__dialog_error_title_generic": {
+    "message": "Beklager",
+    "description": "Dialog error title"
+  },
+  "dialog__text_plain__request_error_message": {
+    "message": "Noe uventet skjedde, og forespørselen din kunne ikke fullføres. Vennligst prøv igjen.",
+    "description": "Dialog error message"
+  },
+  "dialog__button_cancel__dialog_button_cancel": {
+    "message": "Avbryt",
+    "description": "Cancel button text"
+  },
+  "dialog__button_confirm__dialog_button_try_again": {
+    "message": "Prøv igjen",
+    "description": "Try Again button text"
+  },
+  "dialog__text_plain__request_process_title_generic": {
+    "message": "Sender forespørselen"
+  },
+  "dialog__text_plain__request_process_message_generic": {
+    "message": "Vennligst vent ett øyeblikk"
+  },
+  "didialog__text_service__service_name_recruitmentmanager": {
+    "message": "Recruitment Manager",
+    "shortname": "RM"
+  },
+  "dialog__text_service__service_name_ramp": {
+    "message": "Recman Apps, Modules & Plugins",
+    "shortname": "RAMP",
+    "website": "www.recmanplugins.no"
+  },
+  "dialog__text_plain__dialog_success_title_generic": {
+    "message": "Vellykket!"
+  },
+  "dialog__text_plain__request_success_message": {
+    "message": "ble lagt til i"
+  },
+  "dialog__text_plain__imported_from_message_generic": {
+    "message": "Kandidat data importert fra"
+  },
+  "dialog__text_plain__sidebar_section_title_tips": {
+    "message": "Tips og triks fra"
+  }
+}
