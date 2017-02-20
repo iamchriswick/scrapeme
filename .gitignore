@@ -6,4 +6,4 @@ npm-debug.log
 
 dist/
 packages/
-scripts/firebaseConfig.js
+app/scripts/firebaseConfig.js
